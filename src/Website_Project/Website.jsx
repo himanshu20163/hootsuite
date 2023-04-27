@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Hootsuite from './Hootsuite/Hootsuite';
+import React from 'react'
 
-function App() {
+const Website = () => {
   return (
-    <div className="App">
-      {/* <div className="navbar">
+    <div>
+        <div className="navbar">
         <div className='left'>
-          <h4 style={{fontSize:"42px"}}>Logo</h4>
+          <h4>Logo</h4>
         </div>
         <div className='right'>
           <navbar>
@@ -21,10 +19,9 @@ function App() {
       </div>
       <div className="bottom">
          <h3>HOME PAGE</h3>
-      </div> */}
-      <Hootsuite />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default Website
